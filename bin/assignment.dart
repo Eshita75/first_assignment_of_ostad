@@ -5,13 +5,13 @@ main(){
   song.play();
 }
 
-class Media{
+class Media{//base class
   play(){
     print("Playing media");
   }
 }
 
-class Song extends Media{
+class Song extends Media{//derived class
   String? artist;
   Song(this.artist);
   @override
