@@ -7,7 +7,7 @@ main(){
 
 class Media{//base class
   play(){
-    print("Playing media...");
+    print("\"Playing media...\"");
   }
 }
 
@@ -16,6 +16,6 @@ class Song extends Media{//derived class
   Song(this.artist);
   @override
   play() {
-    print('Playing song by $artist...');
+    print('\"Playing song by $artist...\'\"');
   }
 }
