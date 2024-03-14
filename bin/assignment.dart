@@ -16,6 +16,6 @@ class Song extends Media{//derived class
   Song(this.artist);
   @override
   play() {
-    print('Playing song by $artist... ');
+    print('Playing song by $artist...');
   }
 }
