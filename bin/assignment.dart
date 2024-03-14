@@ -7,7 +7,7 @@ main(){
 
 class Media{//base class
   play(){
-    print("Playing media");
+    print("Playing media...");
   }
 }
 
